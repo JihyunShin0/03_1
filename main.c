@@ -3,15 +3,17 @@
 
 int main(int argc, char *argv[])
 {
-    char c;
-    int i;
+    int a;
+    int b;
     
-    printf("enter a character : ");
-    scanf("%c", &c);
+    printf("enter the bunja : ");
+    scanf("%d", &a);
     
-    i = c + 1;
-    printf("the next character of %c (%i) if %c (%i)\n", c, c, i, i);
-  
+    printf("enter the bunmo : ");
+    scanf("%d", &b);
+    
+    printf("result : %f\n", (float) a/b);
+    
     system("PAUSE");	
     return 0;
 }
